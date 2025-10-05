@@ -294,8 +294,7 @@ export const DEFAULT_TTS_VOICES = [
 ];
 
 const openaiModels = [
-  "gemini-2.5-pro-preview-06-05-search",
-  "gemini-2.5-pro-preview-06-05-maxthinking"
+  "gemini-2.5-pro"
 ];
 
 const googleModels = [
