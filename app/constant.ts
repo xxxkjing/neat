@@ -415,7 +415,7 @@ let seq = 1000; // 内置的模型序号生成器从1000开始
 export const DEFAULT_MODELS = [
   ...openaiModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++, // Global sequence sort(index)
     provider: {
       id: "openai",
@@ -426,7 +426,7 @@ export const DEFAULT_MODELS = [
   })),
   ...openaiModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "azure",
@@ -437,7 +437,7 @@ export const DEFAULT_MODELS = [
   })),
   ...googleModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "google",
@@ -448,7 +448,7 @@ export const DEFAULT_MODELS = [
   })),
   ...anthropicModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "anthropic",
@@ -459,7 +459,7 @@ export const DEFAULT_MODELS = [
   })),
   ...baiduModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "baidu",
@@ -470,7 +470,7 @@ export const DEFAULT_MODELS = [
   })),
   ...bytedanceModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "bytedance",
@@ -481,7 +481,7 @@ export const DEFAULT_MODELS = [
   })),
   ...alibabaModes.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "alibaba",
@@ -492,7 +492,7 @@ export const DEFAULT_MODELS = [
   })),
   ...tencentModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "tencent",
@@ -503,7 +503,7 @@ export const DEFAULT_MODELS = [
   })),
   ...moonshotModes.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "moonshot",
@@ -514,7 +514,7 @@ export const DEFAULT_MODELS = [
   })),
   ...iflytekModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "iflytek",
@@ -525,7 +525,7 @@ export const DEFAULT_MODELS = [
   })),
   ...xAIModes.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "xai",
@@ -536,7 +536,7 @@ export const DEFAULT_MODELS = [
   })),
   ...chatglmModels.map((name) => ({
     name,
-    available: true,
+    available: false,
     sorted: seq++,
     provider: {
       id: "chatglm",
