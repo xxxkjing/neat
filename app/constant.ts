@@ -294,7 +294,15 @@ export const DEFAULT_TTS_VOICES = [
 ];
 
 const openaiModels = [
-  "gemini-2.5-pro"
+  "gpt-4o-mini",
+  "gpt-4.1",
+  "gpt-5-nano",
+  "gemini-2.5-flash",
+  "claude-sonnet-4-5-20250929",
+  "claude-opus-4.1",
+  "deepseek-ai/DeepSeek-R1",
+  "glm-4.6-advanced-search",
+  "Qwen/Qwen3-Next-80B-A3B-Thinking"
 ];
 
 const googleModels = [
